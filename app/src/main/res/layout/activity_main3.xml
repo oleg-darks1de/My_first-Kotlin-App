@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Dog -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/dogImgView"
+            android:layout_width="66dp"
+            android:layout_height="104dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/dog" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dogNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dog"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/dogDescView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dogs are great pets.They are loyal and playful."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dogBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <!-- Cat -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/catImgView"
+            android:layout_width="67dp"
+            android:layout_height="95dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/cat" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/catNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cat"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/catDescView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The cat is a domestic species of small carnivorous mammal."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/catBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <!-- Rabbit -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rabbitImgView"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/rabbit" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rabbitNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabbit"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/rabbitDescView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A fluffy and adorable creature that loves to hop around."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rabbitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
